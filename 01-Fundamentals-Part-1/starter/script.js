@@ -55,9 +55,9 @@
 //
 
 // Math operators
-const now = 2037;
-const ageJonas = now - 1991
-const ageSarah = now - 2018
+// const now = 2037;
+// const ageJonas = now - 1991
+// const ageSarah = now - 2018
 // console.log(ageJonas, ageSarah)
 //
 // console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
@@ -83,37 +83,59 @@ const ageSarah = now - 2018
 //
 // const isFullAge = ageSarah >= 18;
 
-console.log(now - 1991 > now - 2018);
+// console.log(now - 1991 > now - 2018);
+//
+//
+// let x, y;
+// x = y = 25 - 10 - 5; // x = y = 10, x = 10
+// console.log(x, y);
+//
+// const averageAge = (ageJonas + ageSarah) / 2
+// console.log(ageJonas, ageSarah, averageAge);
 
 
-let x, y;
-x = y = 25 - 10 - 5; // x = y = 10, x = 10
-console.log(x, y);
+// // Old method of concatenation
+// const firstName = 'Jonas';
+// const job = "teacher"
+// const birthYear = 1991;
+// const year = 2037;
+//
+// const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old '+ job + '!';
+// console.log(jonas);
+//
+// // Template literals - new method of concatenation
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+// console.log(jonasNew);
+//
+// console.log(`Just a regular string...`);
+//
+// // Multi-line strings
+// //Old way
+// console.log('String with \n\
+// \mutliple \n\
+// \lines');
+// //New way
+// console.log(`String
+// multiple
+// lines`);
 
-const averageAge = (ageJonas + ageSarah) / 2
-console.log(ageJonas, ageSarah, averageAge);
+// // Taking decisions: if/else statements
+// const age =15;
+//
+// if(age >= 18) {
+//     console.log('Sarah can start driving license 🚗');
+// } else {
+//     const yearsLeft = 18 -age;
+//     console.log(`Sarach is to young, wait another ${yearsLeft} years :)`);
+// }
+//
+// const birthYear = 1991;
+//
+// let century;
+// if (birthYear <= 2000) {
+//     let century = 20;
+// } else  {
+//     let century = 21;
+// }
+// console.log(century);
 
-// let population = 6;
-// let country = "United States";
-// let continent = "North America";
-// let number = 30;
-// let language = "English";
-//
-// console.log(population / 2);
-//
-// population++;
-//
-// console.log(population);
-// console.log(population > 6);
-// console.log(population < 33);
-// const description1 =
-//     country +
-//     ' is in ' +
-//     continent +
-//     ', and its ' +
-//     population +
-//     ' million people speak ' +
-//     language;
-//
-// console.log(description1);
-//
